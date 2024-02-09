@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: #F4F4F4;
+    text-align: center;
+    font-size: larger; 
+    width: 100%;
+    padding: 5px 10px 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-left{
+    width: 45%;
+}
+
+.nav-left  img{
+    width: 3rem;
+    height: 3rem; 
+    border-radius: 50%;
+}
+
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: start  ;
+    column-gap: 3em;
+}
+
+.nav-right p{
+    margin-bottom: 0;
+    border-top: 10px;
+    box-sizing: border-box;
+    padding: 2px 4px 2px 4px;
+    box-sizing: border-box;
+
+}
+
+.nav-right p:hover{
+    background-color: rebeccapurple;
+}

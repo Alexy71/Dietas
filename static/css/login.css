@@ -1,0 +1,23 @@
+#titulo {
+    background-image: url("../imgs/Fondo.jpg");
+    height: 130px;
+}
+
+#arriba {
+    float: none;
+}
+
+#perfilprofesional {
+    float: right;
+    width: 1300px;
+}
+
+#cabeza {
+    float: none;
+    height: 50px;
+    margin: 0 auto;
+}
+
+table tr {
+    background-color: rgb(245, 250, 249);
+}

@@ -1,0 +1,202 @@
+            body {
+                background-color: #f0efeb;
+                height: 100vh;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .container {
+                width: 70%;
+                height: 80vh;
+                margin: auto;
+                background-color: white;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .left {
+                width: 30%;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /*border-radius: 10px;*/
+                /*border: 2px solid black;
+                /*box-shadow: 6px 20px 10px black;*/
+            }
+            
+            .left img {
+                height: 110px;
+                width: 110px;
+                margin: auto;
+                border-radius: 50%;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            .left li {
+                font-size: large;
+                margin-bottom: 8px;
+                border-bottom: 1px solid black;
+            }
+            
+            .left p {
+                margin: 0;
+                text-align: center;
+            }
+            
+            .tareas {
+                margin-top: 20px;
+                padding-right: 50px;
+            }
+            
+            .center {
+                padding: 20px;
+                width: 50%;
+            }
+            
+            .firsti {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            
+            .firsti button {
+                padding: 10px;
+                margin-top: 2px;
+                border-radius: 20px;
+                border: 0;
+                border: 1px solid black;
+                background-color: white;
+            }
+            
+            .firsti h2 {
+                margin-top: 2px;
+                margin-bottom: 10px;
+            }
+            
+            .full_name {
+                margin-top: 20px;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .social_network ul {
+                padding-left: 0;
+            }
+            
+            .social_network {
+                font-size: x-large;
+            }
+            
+            .social_network input {
+                margin-left: 15px;
+                height: 20px;
+            }
+            /*perfil 2*/
+            
+            .cuenta_creada {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .social_network1 {
+                width: 80%;
+                margin: auto;
+            }
+            
+            .social_network1 p {
+                margin: 0;
+            }
+            
+            .social_network1 div {
+                border-radius: 15px;
+                border: 2px solid black;
+                padding: 5px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            .chance_status p {
+                margin: 0;
+            }
+            
+            .chance_status div {
+                margin-top: 15px;
+                padding: 8px;
+                display: flex;
+                justify-content: space-around;
+                background-color: #f2f2f2;
+            }
+            
+            .chance_status button {
+                background-color: white;
+                padding: 3px;
+                border-radius: 10px;
+            }
+            /*perfil 3*/
+            
+            .suscripcion_profesional {
+                width: 85%;
+                margin: auto;
+                padding: 10px;
+                background-color: #f2f2f2;
+            }
+            
+            .informacion_profesional {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+            }
+            
+            .informacion_profesional img {
+                border-radius: 50%;
+                width: 90px;
+                height: 90px;
+            }
+            
+            .informacion_profesional p {
+                margin: 0;
+            }
+            
+            .informacion_plan,
+            .chances {
+                margin-top: 12px;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .informacion_plan input {
+                width: 120px;
+            }
+            
+            .chances button {
+                border-radius: 15px;
+                background-color: white;
+            }
+            
+            .meal_table {
+                margin-top: 15px;
+            }
+            
+            .meal_table table {
+                width: 100%;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            /*perfil 5*/
+            
+            .cambios {
+                display: flex;
+                justify-content: space-evenly;
+            }

@@ -1,0 +1,111 @@
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url(../imgs/food.jpg);
+    }
+    
+    .container {
+        /*background: #ff9d64;*/
+        width: 25%;
+       
+        border-radius: 20% 25% 15% 12%;
+        border-radius: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 6px 20px 10px black;
+    }
+    
+    .container h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+    
+    #contenido {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: larger;
+        padding: 3px;
+    }
+    
+    #contenido p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    #contenido .button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #contenido .button>p {
+        font-size: smaller;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #contenido .button button {
+        width: 35%;
+        background-color: #ef476f;
+        font-size: large;
+        border-radius: 15%;
+    }
+    
+    .icons {
+        width: 20%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+    
+    .fa-facebook,
+    .fa-google {
+        font-size: larger;
+    }
+    
+    .llenado {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    
+    .llenado input,
+    select {
+        height: 2rem;
+        text-align: center;
+        border: 0;
+        padding: 0;
+    }
+    
+    #nombres,
+    #apellidos {
+        width: 48%;
+    }
+    
+    #peso,
+    #altura {
+        width: 45%;
+    }
+    
+    #sexo {
+        width: 30%;
+    }
+    
+    #celular {
+        width: 55%;
+    }
+    
+    .en_linea {
+        display: flex;
+        justify-content: space-between;
+    }
